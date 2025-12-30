@@ -1,0 +1,93 @@
+/* การตั้งค่าพื้นฐาน */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anuphan', 'Sarabun', sans-serif;
+    background-color: #fdfaf8; /* สีครีมอุ่นๆ */
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* กล่องข้อความ */
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #8e8d8a;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/* เส้นคั่น */
+.divider {
+    width: 50px;
+    height: 1px;
+    background-color: #d8c3a5;
+    margin: 25px auto;
+}
+
+/* เนื้อหา */
+.content p {
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+/* เน้นข้อความ */
+.highlight {
+    font-weight: 500;
+    color: #e85a4f; /* สีชมพูอมส้ม */
+    font-size: 1.1rem;
+}
+
+/* ข้อความความทรงจำ */
+.memory {
+    font-style: italic;
+    color: #999;
+    font-size: 0.95rem;
+    padding: 10px 20px;
+    border-left: 2px solid #f3ece7;
+    margin: 20px 0;
+}
+
+/* ข้อความครบรอบ */
+.anniversary {
+    color: #8e8d8a;
+    font-size: 0.9rem;
+    background-color: #fff9f9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ส่วนท้าย */
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #bbb;
+    line-height: 1.6;
+}
+
+footer strong {
+    color: #8e8d8a;
+}
